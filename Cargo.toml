@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+logos = { version = "0.16.1", default-features = false, features = ["export_derive", "state_machine_codegen"] }
+num-bigint = { version = "0.4.8", default-features = false }
+num-rational = { version = "0.4.2", default-features = false, features = ["num-bigint"] }
